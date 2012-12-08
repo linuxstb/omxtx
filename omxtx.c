@@ -760,7 +760,7 @@ initspareloop: /* Yeah, yeah... */
 	pfmt->nPortIndex = encportidx+1;
 	pfmt->nIndex = 0;
 	pfmt->eCompressionFormat = OMX_VIDEO_CodingAVC;
-	pfmt->eColorFormat = 20;
+	pfmt->eColorFormat = OMX_COLOR_FormatYUV420PackedPlanar;
 	pfmt->xFramerate = viddef->xFramerate;
 
 	pixaspect->nPortIndex = encportidx+1;
